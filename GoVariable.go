@@ -26,7 +26,7 @@ VARIABLE DATA TYPES ARE AS FOLLOWS:
 	var x = 1	//VAR keyword automatically asigns the data-type to X i.e., 1
 	var y int = 2	//You can expicitly assign the data-type to variables by mentioning the same after the variable-name
 
-	fmt.Print(x, " & ", y)	//Printing variables with space or text in between 
+	fmt.Println(x, " & ", y)	//Printing variables with space or text in between 
 	
 	
 	//ASSIGNING MULTIPLE VARIABLES HAVEING THE SAME DATA-TYPE IN ONE LINE
@@ -34,7 +34,7 @@ VARIABLE DATA TYPES ARE AS FOLLOWS:
 	a = 10
 	b = 20
 
-	fmt.Print(a+b)	//Operations performed on the variables such as Multiplication (*), Division (/), Subtraction (-), Modulus (%), etc
+	fmt.Println(a+b)	//Operations performed on the variables such as Multiplication (*), Division (/), Subtraction (-), Modulus (%), etc
 
 	//ADVANCED METHOD TO DECLARE AND ASSIGN VALUE TO VARIABLES
 	number := 1000	//The colon (:) and the equal to (=) sign declare and assign the value
