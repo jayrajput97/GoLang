@@ -12,12 +12,12 @@ func main() {
 	fmt.Println("Calculation result: ", result)
 }
 
-func scanNumber() (int, int){
+func scanNumber() (int, int) { 
 	var x, y int
-	fmt.Println("Enter 1st number")
-	fmt.Scanf("%f", &x)
-	fmt.Println("Enter 2nd number")
-	fmt.Scanf("%f", &y)
+	//fmt.Println("Enter 1st number")
+	fmt.Scanf("%f %f", &x, &y)
+	//fmt.Println("Enter 2nd number")
+	//fmt.Scanf("%f", &y)
 	return x, y
 }
 
