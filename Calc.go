@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//Main fucntion
+//Main function
 func main() {
 	var num1, num2 float64 
 	var choice string
@@ -18,7 +18,7 @@ func main() {
 func scanNumber() (float64, float64) {
 	var x, y float64
 	fmt.Println("Enter 1st number")
-	fmt.Scanf("%f\n", &x)
+	fmt.Scanf("%f\n", &x)		//\n is used to end the read after reading the first number
 	fmt.Println("Enter 2nd number")
 	fmt.Scanf("%f\n", &y)
 	return x, y
@@ -43,7 +43,7 @@ func calcResult(a, b float64, z string) float64 {
 	case "4": //Case 4 would be Divide
 			result = float64(a / b)
 			break
-
+	//NOTE: The modulus operator (%) is not in the switch case because it is not able to perform Modulus on Float values
 	default: //Default case
 			fmt.Println("See ya!!")
 			break
