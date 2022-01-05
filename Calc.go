@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//Main fucntion
 func main() {
 	var num1, num2 float64 
 	var choice string
@@ -13,7 +14,7 @@ func main() {
 	fmt.Printf("Calculation result: %.2f", result)
 }
 
-
+//Function to scan numbers
 func scanNumber() (float64, float64) {
 	var x, y float64
 	fmt.Println("Enter 1st number")
@@ -23,6 +24,7 @@ func scanNumber() (float64, float64) {
 	return x, y
 }
 
+//Calculator fucntion
 func calcResult(a, b float64, z string) float64 {
 	var result float64
 	switch z {
