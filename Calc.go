@@ -1,3 +1,4 @@
+//Program for Simple Calculator in GoLang
 package main
 
 import "fmt"
@@ -43,7 +44,11 @@ func calcResult(a, b float64, z string) float64 {
 	case "4": //Case 4 would be Divide
 			result = float64(a / b)
 			break
-	//NOTE: The modulus operator (%) is not in the switch case because it is not able to perform Modulus on Float values
+	
+	
+			//NOTE: The modulus operator (%) is not in the switch case because it is not able to perform Modulus on Float values
+	
+	
 	default: //Default case
 			fmt.Println("See ya!!")
 			break
