@@ -7,10 +7,10 @@ func main() {
 	var num1, num2 float64 
 	var choice string
 	fmt.Println("Enter two numbers")
-	num1, num2 = scanNumber()
+	num1, num2 = scanNumber()	//Function call to scan numbers
 	fmt.Printf("Enter your choice\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Mod\nAny other key to exit...")
 	fmt.Scanf("%s", &choice)
-	result := calcResult(num1, num2, choice)
+	result := calcResult(num1, num2, choice)		//Function call to calculate result
 	fmt.Printf("Calculation result: %.2f", result)
 }
 
